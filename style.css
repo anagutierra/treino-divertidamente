@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(158, 93, 202, 0.477);
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 38px;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#logo {
+    height: 70px;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    padding-left: 38px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+p {
+    color: white;
+}
+
+#main-container-2 {
+    padding: 38px;
+    z-index: 5;
+}
+
+.main-container-img {
+    height: 100px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#ansiedade {
+    color: chocolate;
+}
+
+#alegria {
+    color: darkblue;
+}
+
+#vergonha {
+    color: blueviolet;
+}
+
+.main-container {
+    display: flex;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/vetores-gratis/cores-pastel-degrade-multicoloridas_78370-1977.jpg);
+    position: relative;
+}
+
+#background {
+    background-color: rgba(0, 0, 0, 0.416);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
